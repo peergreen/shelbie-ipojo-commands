@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ipojo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns="org.apache.felix.ipojo"
+       xsi:schemaLocation="org.apache.felix.ipojo http://felix.apache.org/ipojo/schemas/1.6.0/core.xsd
+                           org.ow2.shelbie http://shelbie.ow2.org/xmlns/2.0.0/shell-command.xsd">
+
+  <command-instance xmlns="org.ow2.shelbie"
+                    action="org.ow2.shelbie.commands.ipojo.internal.QueueInfoAction" />
+
+  <command-instance xmlns="org.ow2.shelbie"
+                    action="org.ow2.shelbie.commands.ipojo.internal.DeclarationsAction" />
+
+  <command-instance xmlns="org.ow2.shelbie"
+                    action="org.ow2.shelbie.commands.ipojo.internal.DeclarationAction" />
+
+</ipojo>
