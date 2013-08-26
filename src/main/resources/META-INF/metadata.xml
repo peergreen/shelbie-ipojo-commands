@@ -5,12 +5,12 @@
                            org.ow2.shelbie http://shelbie.ow2.org/xmlns/2.0.0/shell-command.xsd">
 
   <command-instance xmlns="org.ow2.shelbie"
-                    action="org.ow2.shelbie.commands.ipojo.internal.QueueInfoAction" />
+                    action="com.peergreen.shelbie.ipojo.internal.QueueInfoAction" />
 
   <command-instance xmlns="org.ow2.shelbie"
-                    action="org.ow2.shelbie.commands.ipojo.internal.DeclarationsAction" />
+                    action="com.peergreen.shelbie.ipojo.internal.DeclarationsAction" />
 
   <command-instance xmlns="org.ow2.shelbie"
-                    action="org.ow2.shelbie.commands.ipojo.internal.DeclarationAction" />
+                    action="com.peergreen.shelbie.ipojo.internal.DeclarationAction" />
 
 </ipojo>
