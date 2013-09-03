@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
- Copyright 2013 Peergreen
- Licensed under the Apache License, Version 2.0 (the "License");
- you may not use this file except in compliance with the License.
- You may obtain a copy of the License at
-
-   http://www.apache.org/licenses/LICENSE-2.0
+ Copyright 2013 Peergreen S.A.S. All rights reserved.
+ Proprietary and confidential.
 
  Unless required by applicable law or agreed to in writing, software
  distributed under the License is distributed on an "AS IS" BASIS,
@@ -17,7 +13,7 @@
   <parent>
     <groupId>com.peergreen.shelbie</groupId>
     <artifactId>commands-pom</artifactId>
-    <version>1.0.0</version>
+    <version>1.1-SNAPSHOT</version>
   </parent>
   <modelVersion>4.0.0</modelVersion>
 
@@ -26,6 +22,10 @@
   <version>1.0.0-SNAPSHOT</version>
 
   <name>Peergreen iPOJO Commands</name>
+
+  <properties>
+    <apache-rat-plugin.ignoreErrors>false</apache-rat-plugin.ignoreErrors>
+  </properties>
 
   <scm>
     <connection>scm:git:https://forge.peergreen.com/git/git/shelbie/ipojo-commands.git</connection>
