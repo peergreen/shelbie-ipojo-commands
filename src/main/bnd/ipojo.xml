@@ -23,4 +23,7 @@
   <command-instance xmlns="org.ow2.shelbie"
                     action="com.peergreen.shelbie.ipojo.internal.DeclarationAction" />
 
+  <command-instance xmlns="org.ow2.shelbie"
+                    action="com.peergreen.shelbie.ipojo.internal.QueuePerformanceAction" />
+
 </ipojo>
